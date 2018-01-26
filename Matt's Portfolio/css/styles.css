@@ -1,0 +1,120 @@
+body {
+	background-image: url("../img/background-pic.jpg");
+}
+
+
+.main-pic {
+	display: flex;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+	max-width:720px;
+	box-shadow: 7px 7px 7px grey;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 7px 7px 7px grey;
+	width: 100%;
+	max-width:1080px;
+margin: auto;
+	background-color: #e2dcdc;
+}
+
+.header-text {
+	margin-right: 20px;
+	margin-top: 20px;
+	width: 100%;
+	font-family: Trebuchet MS, arial;
+	font-size: 40px;
+	font-style: normal;
+	text-align: right;
+}
+
+.header-subtext {
+	width: 100%;
+	margin-top: 0px;	
+	font-family: Trebuchet MS, arial;
+	font-size: 30px;
+	font-style: normal;
+	text-align: right;
+}
+
+.header-body {
+	box-shadow: 7px 7px 7px grey;
+	display: flex;
+	flex-directin: row;
+	max-width: 1080px;
+	width: 100%;
+	background-color: #fffcfc;
+}
+
+.u-logo {
+	margin-top: 20px;
+	max-height: 100px;
+	height: 100%;
+}
+
+.f-work {
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 40px;
+	text-decoration: underline;
+	font-family: trebuchet ms, arial;
+}
+
+.resume-body {
+	max-width: 720px;
+	width: 100%;
+	margin: auto;
+	box-shadow: 7px 7px 7px grey;
+	background-color: white;
+}
+
+.resume-img {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.img-title {
+margin-left: 20px;
+	text-align: center;
+	font-family: Trebuchet ms, arial;
+width: 100%;
+}
+
+.lion-card {
+	flex: 1;
+	margin-top: 20px;
+	max-width: 200px;
+width:100%;
+box-shadow: 7px 7px 7px grey;
+}
+
+.weather-card {
+	flex: 1;
+	margin-top: 20px;
+	margin-left: 20px;
+	max-width: 200px;
+	width: 100%;
+	box-shadow: 7px 7px 7px grey;
+}
+
+.calculator-card {
+	flex: 1;
+	margin-top: 20px;
+	margin-left: 20px;
+	max-width: 200px;
+	width: 100%;
+	box-shadow: 7px 7px 7px grey;
+}
+
+.sources {
+	margin-top: 20px;
+	font-size: 7px;
+	text-align: right;
+}
